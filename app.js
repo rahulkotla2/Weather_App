@@ -58,17 +58,17 @@ function weatherDetails(info) {
         const { feels_like, humidity, temp } = info.main;
 
         if (id == 800) {
-            wIcon.src = "./Weather_icons/clear.svg";
+            wIcon.src = "./Weather_Icons/clear.svg";
         } else if (id >= 200 && id <= 232) {
-            wIcon.src = "./Weather_icons/storm.svg";
+            wIcon.src = "./Weather_Icons/storm.svg";
         } else if (id >= 600 && id <= 622) {
-            wIcon.src = "./Weather_icons/snow.svg";
+            wIcon.src = "./Weather_Icons/snow.svg";
         } else if (id >= 701 && id <= 781) {
-            wIcon.src = "./Weather_icons/haze.svg";
+            wIcon.src = "./Weather_Icons/haze.svg";
         } else if (id >= 801 && id <= 804) {
-            wIcon.src = "./Weather_icons/cloud.svg";
+            wIcon.src = "./Weather_Icons/cloud.svg";
         } else if ((id >= 300 && id <= 321) || (id >= 500 && id <= 531)) {
-            wIcon.src = "./rain.svg";
+            wIcon.src = "./Weather_Icons/rain.svg";
         }
 
 
